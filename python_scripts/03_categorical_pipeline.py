@@ -33,7 +33,7 @@ data = adult_census.drop(columns=[target_name])
 # ## Identify categorical variables
 #
 # As we saw in the previous section, a numerical variable is a
-# quantity represented by a real or integer number. These variables can be
+# quantity represented by a continuous or integer number. These variables can be
 # naturally handled by machine learning algorithms that are typically composed
 # of a sequence of arithmetic instructions such as additions and
 # multiplications.
