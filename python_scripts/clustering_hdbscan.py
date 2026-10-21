@@ -224,7 +224,7 @@ def plot_map(df, color_feature, colorbar_label="cluster label"):
         labels={"color": colorbar_label},
     )
     fig.update_layout(
-        mapbox_style="open-street-map",
+        map_style="open-street-map",
         mapbox_center={
             "lat": df["Latitude"].mean(),
             "lon": df["Longitude"].mean(),

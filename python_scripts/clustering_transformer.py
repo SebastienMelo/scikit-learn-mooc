@@ -75,7 +75,7 @@ fig = px.scatter_map(
     labels={"color": "price (k$)"},
 )
 fig.update_layout(
-    mapbox_style="open-street-map",
+    map_style="open-street-map",
     mapbox_center={
         "lat": data["Latitude"].mean(),
         "lon": data["Longitude"].mean(),
